@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.one{
+    background-color: aqua;
+    padding:15px;
+    float:left ;
+    width: 20%;
+}
+.center{
+    background-color: blue;
+    padding: 15px;
+    float: left;
+    width:60%;
+}
+.last{
+    background-color: brown;
+    padding:15px;
+    float:left;
+    width:20%;
+}
+@media screen and (max-width:800px) {
+   .one, .center, .last {
+    width: 100%;
+   }
+}

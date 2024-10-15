@@ -1,0 +1,21 @@
+body{ width: 100%;
+}
+.boxes{
+    display: flex;
+    background-color: rgb(255, 30, 161);
+    flex-wrap: wrap;
+    
+  }
+  
+  .boxes > div {
+    background-color: #289be7;
+    margin: 15px;
+    padding: 20px;
+    font-size: 25px;
+    
+    
+  }
+  div:nth-child(2){
+    flex: 0 0 75%;
+  }
+  
